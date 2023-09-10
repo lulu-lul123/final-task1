@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+ a{
+  color: white;
+ }
+ .burger{
+  background: 0;
+  border: 0;
+ }
+ ul{
+  list-style-type: none;
+
+ }
+
+ 
+ nav .nav-list li{
+  margin: 0 1em;
+ } 
+
+
+ nav .nav-list a{
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #313148;
+  color: white;
+  font-family: latin-700;
+  font-size: 20px;
+  padding-bottom: 10px;
+ }
+  @font-face {
+    font-family: League Spartan;
+    src: url(../assets/fonts/league-spartan-v11-latin-regular.woff2);
+  }
+  
+  @font-face {
+    font-family: antonio;
+    src: url(../assets/fonts/antonio.woff2);
+  }
+
+
+  body {
+    background-color: #070724;
+    background-image: url(../assets/images/background-stars.svg);
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+  }
+
+  svg {
+    background-color: #000;
+  }
+  .header-planets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-planets h1 {
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -1.05px;
+    color: #fff;
+    margin: 16px 0 16px 24px;
+  }
+
+  .burger-menu {
+    margin-right: 15px;
+    ;
+  }
+
+  main .main-img {
+    text-align: center;
+  }
+
+  /* SECTION - PLANET INFORMATION */
+.article h1{
+  color: white;
+  font-family: antonio;
+  src: url(../assets/fonts/antonio.woff2);
+}
+.article .description{
+  color: white;
+  font-family: latin-700;
+  src: url(../assets/fonts/league-spartan-v11-latin-700.woff2);
+}
+
+section .about-planets{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+section .about-planets h3 {
+  color: #7f7f8f;
+  font-family: latin-700;
+  font-size: 13px;
+}
+section h2 {
+  color: white;
+  font-family: antonio;
+  font-size: 15px;
+}
+
+section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  padding: 10px 17px;
+  margin: 5px 15px;
+}
+  
+ 

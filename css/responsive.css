@@ -1,0 +1,182 @@
+@media all and (min-width: 768px) {
+    /* HEADER */
+    .burger {
+      display: none;
+    }
+}
+header a {
+  color: white;
+  font-family: latin-700;
+  font-size: 12px;
+  
+}
+header h1 {
+  margin-top: 20px;
+}
+.header-planets{
+    display: flex;
+   flex-direction: column;
+}
+nav{
+    display: none;
+}
+nav .active{
+  display: block;
+}
+
+.nav-list {
+    display: flex;
+    margin-top: 20px;
+  }
+  .nav-link {
+    color: white;
+    margin-left: 20px;
+  }
+
+ 
+
+  /*main*/
+
+  main .main-buttons1 {
+    display: none;
+  }
+  main .main-buttons2 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  main img {
+    width: 250px;
+  }
+
+
+  main .container {
+    border: 1px solid #313148;
+    padding: 14px;
+    text-align: left;
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  main .container span {
+    color: #7f7f8f;
+    margin-right: 13px;
+  }
+
+  main .main-structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+ 
+  
+
+
+
+  main .planet-name {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+ 
+
+  .description {
+    text-align: left;
+  }
+  .source {
+    justify-content: flex-start;
+    margin-left: 20px;
+    
+  }
+
+  /*about planets*/
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 25px;
+    color: #7f7f8f;
+  }
+
+  section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid #7f7f8f;
+    width: 200px;
+    padding: 20px 17px;
+    margin: 15px;
+}
+
+section h2 {
+  font-family: antonio;
+  font-size: 30px;
+  color: white;
+}
+
+
+@media all and (min-width: 1440px) {
+   
+    header {
+      padding: 30px;
+    }
+}
+
+
+header .main-header{
+  flex-direction: row;
+    margin-right: 20px;
+}
+
+/*main*/
+
+
+main .main-structure {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 50px 0px 0px;
+}
+
+main .description {
+  max-width: 850px;
+  color: #7f7f8f;
+  font-size: 15px;
+}
+
+main .article h1{
+  font-size: 70px;
+}
+
+main .source{
+  margin-bottom:  15px;
+  display: flex;
+  color:#7f7f8f;
+  font-family: latin-700 ;
+}
+
+main div.main-img #planet-img {
+  width: 300px;
+  margin-top: 150px;
+
+}
+nav{
+  display: block;
+}
+
+/*about planets*/
+section div{
+  width: 250px;
+  padding: 20px 17px;
+  margin: 60px 15px;
+}
+
+section h2 {
+  color: white;
+  font-family: antonio;
+  font-size: 40px;
+}
+
+
